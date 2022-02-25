@@ -127,9 +127,24 @@ float: right;
     margin-top: 20px;
     padding: 20px;
     flex-direction: column;
-    border: solid black;
-    border-width: 1px;
+    border: solid grey;
+    border-width: 2px;
     border-radius: 15px;
+}
+
+.proj-col:hover{
+    display: flex;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    flex-direction: column;
+    border: solid grey;
+    border-width: 2px;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(81, 203, 238, 1);
 }
 
 .proj-name {
