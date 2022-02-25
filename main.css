@@ -9,7 +9,7 @@ ul {
   }
   
 .nav {
-float: right;
+    float: right;
 }
 
 .container {
@@ -42,8 +42,8 @@ float: right;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 25px;
     color: #000000;
 }
 
@@ -97,17 +97,14 @@ float: right;
     font-family: Montserrat;
     font-style: normal;
     color: white;
-    /** text-align: center; 
-    position: relative;
-    top: 200px;*/
     padding: 6px;
-    padding-left: 16px;
+    padding-left: 80px;
+    padding-right: 150px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 30px;
     color: #000000; 
-    padding-right: 150px;
 }
 
 .portfolio {
@@ -182,7 +179,6 @@ float: right;
 }
 
 .section-title {
-    display: flex;
     position: relative;
     top: 100px;
     font-family: Montserrat;
@@ -197,8 +193,17 @@ float: right;
     font-weight: 1000;
     font-size: 50px;
     line-height: 55px;
-    text-align: center;
     color: #000000; 
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    padding-bottom: 200px;
 }
 
 
